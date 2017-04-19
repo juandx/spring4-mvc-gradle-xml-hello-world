@@ -20,6 +20,10 @@ dependencies {
 	
 }
 
+war {
+    archiveName 'test.war'
+}
+
 // Embeded Jetty for testing
 jettyRun{
 	contextPath = "spring4"
